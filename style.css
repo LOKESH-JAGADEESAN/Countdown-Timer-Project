@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Spartan", sans-serif;
+}
+
+body {
+    text-align: center;
+    background: linear-gradient(to left,rgb(178, 180, 188),rgb(17, 15, 15));
+}
+
+h1, p {
+    color: #fff;
+}
+
+h1 {
+    font-size: 80px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+table {
+    margin: auto;
+}
+
+th {
+    color: #fff;
+}
+
+input {
+    color: #fff;
+    font-size: 20px;
+    padding: 5px;
+    background: transparent;
+    margin: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #121212;
+}
+
+button {
+    color: #fff;
+    background: #000;
+    min-width: 120px;
+    margin: 20px 10px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#calculate:hover {
+    color: green;
+    transition: ease 0.3s;
+}
+
+#stop:hover {
+    color: red;
+    transition: ease 0.3s;
+}
+
+#reset:hover {
+    color: gray;
+    transition: ease 0.3s;
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+}
+
+.heading {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.time {
+    background: transparent;
+    border: 3px solid #fff;
+    font-size: 150px;
+    width: auto;
+    height: 150px;
+    margin: 10px 10px 0px 10px;
+    border-radius: 5px;
+    padding: 0px 10px;
+}
